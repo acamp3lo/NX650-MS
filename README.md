@@ -71,6 +71,14 @@ The motorcycle's fuse box is then bolted on top of the assembly.
     </a>
 </p>
 
+The Power Supply Unit (PSU) ensures the motorcycle's battery voltage is converted to a stable, filtered 5V. It also has a MOSFET used to power the device only when the ignition is turned on.
+
+<p align="center">
+    <a href="images/docs/psu_circuit_diagram.jpg">
+        <img src="images/docs/psu_circuit_diagram.jpg" alt="PSU Circuit Diagram" width="80%">
+    </a>
+</p>
+
 <br>
 
 ## Display Box Assembly
