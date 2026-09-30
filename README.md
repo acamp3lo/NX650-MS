@@ -1,10 +1,10 @@
-# Honda NX650 RD08 Dashboard
+# Honda NX650 Monitoring System
 
-![NX650 Dashboard](images/docs/01.jpg)
+![NX650 MS](images/docs/01.jpg)
 
 <br>
 
-***This is a short summary of my Honda NX650 dashboard project.***
+***This is a short summary of my Honda NX650 Monitoring System project.***
 
 <br>
 
