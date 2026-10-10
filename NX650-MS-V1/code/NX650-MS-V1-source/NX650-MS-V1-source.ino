@@ -637,23 +637,33 @@ void displayMainScreen() {
 
   // Engine Head Temperature
   display.setCursor(53, 15);
-  if( engineHeadTemp < 100 ) {
-    display.print(" ");
-    if( engineHeadTemp < 10 ) {
+  // Check if sensor is connected
+  if( engineHeadTemp > -30 ) {
+    if( engineHeadTemp < 100 ) {
       display.print(" ");
+      if( engineHeadTemp < 10 ) {
+        display.print(" ");
+      }
     }
+    display.print(engineHeadTemp);
+  } else {  // Display not available "N/A" text
+    display.print("N/A");
   }
-  display.print(engineHeadTemp);
 
   // Engine Carter Temperature
   display.setCursor(94, 15);
-  if( engineSumpTemp < 100 ) {
-    display.print(" ");
-    if( engineSumpTemp < 10 ) {
+  // Check if sensor is connected
+  if( engineSumpTemp > -30 ) {
+    if( engineSumpTemp < 100 ) {
       display.print(" ");
+      if( engineSumpTemp < 10 ) {
+        display.print(" ");
+      }
     }
+    display.print(engineSumpTemp);
+  } else {  // Display not available "N/A" text
+    display.print("N/A");
   }
-  display.print(engineSumpTemp);
 
   // Air Temperature
   display.setCursor(3, 60);
